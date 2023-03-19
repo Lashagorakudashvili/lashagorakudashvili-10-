@@ -39,6 +39,7 @@
 <body>
     
     <footer class="footer">
+        <section>
         <h2 class="contact-2">
             კონტაქტი
         </h2>
@@ -78,18 +79,41 @@
                 ყველა უფლება დაცულია
             </span>
         </div>
+        </section>
 
-        <div class="form-row">
-            <label for="input-field" class="form-label">სახელი, გვარი</label>
-            <input type="name" name="name" id="name" placeholder="" required />
-        </div>
-
+        <section class="form" >
+            <div class="form-row">
+                <div><form action="/user" method="get"></div>
+                
+                <label for="user-name" class="name">სახელი, გვარი</label>
+                <input type="name" name="name" id="name" required/>
+            
+                <label for="email" class="email-2">ელ. ფოსტა</label>
+                <input type="email" name="email" id="email" required/>
+            
+                <label for="number" class="numbers">ტელეფონის ნომერი</label>
+                <input type="number" name="number" id="number" required/>
+                
+                <label for="notif" class="notif" >შეტყობინება</label>
+                <textarea type="notif" name="notif" id="notif" class="notif-box"></textarea>
         
+                <button type="submit" class="submit">გაგზავნა</button>
 
+                <span class="made" >დამზადებულია</span>
+                
+                <img src="assets/images/Group 73.svg" alt="heart" class="emoji"/>
+                <span class="it" >-ით</span>
+            
+                <a href="#">
+                <img src="assets/images/Group 72.png" alt="smartweb" class="smartweb" />
+                </a>
 
-
-
-
+                
+        
+       
+        
+      </section>
+    
     </footer>
 
   </body>
