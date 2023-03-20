@@ -86,6 +86,7 @@ input[type=number] {
     resize: none;
     width: 100%;
     margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .submit {
